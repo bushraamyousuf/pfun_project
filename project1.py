@@ -19,7 +19,7 @@ username=input("Hi, I am ploo, your personal mental health assistant. What can I
 
 emotions_1=["anxious","angry","happy","sad","frustated","calm"]
 
-emotion = input('How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n Happy \n Sad \n Frustrated \n Pensive ')
+emotion = input('Hi'+username+', How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n Happy \n Sad \n Frustrated \n Pensive ')
 
 user_emotions = emotion.lower()
 
