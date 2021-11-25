@@ -17,9 +17,9 @@ def meditation_timer(t):
 
 username=input("Hi, I am ploo, your personal mental health assistant. What can I call you?")
 
-emotions_1=["anxious","angry","happy","sad","frustated","calm"]
+emotions_1=["anxious","angry","happy","sad","frustated"]
 
-emotion = input('Hi '+username+', How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n Happy \n Sad \n Frustrated \n Pensive ')
+emotion = input('Hi '+username+', How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n Happy \n Sad \n Frustrated')
 
 user_emotions = emotion.lower()
 
@@ -40,6 +40,8 @@ if user_emotions in emotions_1:
         print(input(""))
         print(input(""))
         print('Try to take deep breaths')
+        meditation_timer(t)
+
     elif user_emotions=="happy":
         print("Thats good to hear!")
         print(input(""))
@@ -61,11 +63,6 @@ if user_emotions in emotions_1:
         print(input(""))
         print(input(""))
         print('Try to take deep breaths')
-    elif user_emotions=="pensive":
-        print("I am so sorry to hear that",username)
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print('Try to take deep breaths')
+        meditation_timer(t)
+
     
