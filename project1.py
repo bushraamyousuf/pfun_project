@@ -60,10 +60,10 @@ if user_emotions in emotions_1:
         print("I hope this makes you feel better!")
     elif user_emotions=="frustated":
         print("I am so sorry to hear that",username)
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print(input(""))
+        print(input("Are you frustrated because you don’t want to admit that you miscalculated, or you didn’t know the answer, or you couldn’t do what you thought you could, etc.?"))
+        print(input("What else is possible? How can you change your approach? "))
+        print(input("Will what happened matter in a week? A month? A year?"))
+        print(input("Are you as interested in seeing the situation for what it is as you are, in being “right”?"))
         print('Try to take deep breaths')
         meditation_timer(t)
 
