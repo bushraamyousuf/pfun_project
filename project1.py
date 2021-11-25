@@ -45,7 +45,7 @@ if user_emotions in emotions_1:
         meditation_timer(t)
 
     elif user_emotions=="confused":
-        print("Thats good to hear!")
+        print("Hope you find clarity soon!",username)
         print(input(""))
         print(input(""))
         print(input(""))
