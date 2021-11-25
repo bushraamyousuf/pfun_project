@@ -15,7 +15,7 @@ def meditation_timer(t):
 
 
 
-username=input("Hi, I am ploo, your personal mental health assistant. What can i call you?")
+username=input("Hi, I am ploo, your personal mental health assistant. What can I call you?")
 
 emotions_1=["anxious","angry","happy","sad","frustated","calm"]
 
