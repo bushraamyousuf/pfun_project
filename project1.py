@@ -3,7 +3,7 @@ import time
 # countdown timer 
 
 def meditation_timer(t):
-    t = 60
+    t = 10
     while t > 0: # while t > 0 for clarity 
       mins = t // 60
       secs = t % 60
@@ -17,9 +17,9 @@ def meditation_timer(t):
 
 username=input("Hi, I am ploo, your personal mental health assistant. What can I call you?")
 
-emotions_1=["anxious","angry","happy","sad","frustated"]
+emotions_1=["anxious","angry","confused","sad","frustated"]
 
-emotion = input('Hi '+username+', How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n Happy \n Sad \n Frustrated')
+emotion = input('Hi '+username+', How are you feeling today? \n Choose one of the following emotions: \n Anxious \n Angry \n confused \n Sad \n Frustrated')
 
 user_emotions = emotion.lower()
 
@@ -37,26 +37,27 @@ if user_emotions in emotions_1:
     elif user_emotions=="angry":
         print("I am so sorry to hear that",username)
         print(input("Does this feeling make your situation better?"))
-        print(input(""))
-        print(input(""))
-        print(input(""))
+        print(input("Are you truely understanding the other person?"))
+        print(input("Are your expectations reasonable?"))
+        print(input("Is your anger getting you what you want?"))
+        print(input("Is your anger out of proportion to the offense?")
         print('Try to take deep breaths')
         meditation_timer(t)
 
-    elif user_emotions=="happy":
+    elif user_emotions=="confused":
         print("Thats good to hear!")
         print(input(""))
         print(input(""))
         print(input(""))
         print(input(""))
-        print("Have a great day!")
+        print("Dont overthink too much!")
     elif user_emotions=="sad":
         print("I am so sorry to hear that",username)
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print("I hope this makes you feel refresehed!")
+        print(input("Why are you down?"))
+        print(input("what positive encounter you had today?"))
+        print(input("Is this the hardest thing you have faced today?"))
+        print(input("What is the worst that could happen?"))
+        print("I hope this makes you feel better!")
     elif user_emotions=="frustated":
         print("I am so sorry to hear that",username)
         print(input(""))
