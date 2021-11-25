@@ -29,8 +29,9 @@ if user_emotions in emotions_1:
     if user_emotions == "anxious":
         print("I am so sorry to hear that",username)
         print(input("Are you worrying just to worry?"))
-        print(input("Are you fears based in reality?"))
-        print(input(""))
+        print(input("How do you know your thoughts are true?"))
+        print(input("What are the chances the thing you are worrying about will actually happen?"))
+        print(input("What can be the worst possible outcome?"))
         print('Try to take deep breaths')
         meditation_timer(t)
     elif user_emotions=="angry":
