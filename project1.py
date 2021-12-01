@@ -46,7 +46,7 @@ if user_emotions in emotions_1:
 
     elif user_emotions=="confused":
         print("Hope you find clarity soon!",username)
-        print(input(""))
+        print(input("What is right with me?"))
         print(input(""))
         print(input(""))
         print(input(""))
