@@ -47,10 +47,12 @@ if user_emotions in emotions_1:
     elif user_emotions=="confused":
         print("Hope you find clarity soon!",username)
         print(input("What is right with me?"))
-        print(input(""))
-        print(input(""))
-        print(input(""))
-        print("Dont overthink too much!")
+        print(input("What’s worse – Failing or never trying, never knowing?"))
+        print(input("What expectation do I have from people around me?"))
+        print(input("Do I hear my inner voice and listen to my intuition?"))
+        print("If you can’t get a good grip on life, relax. Be gentle with yourself. You are doing your best!")
+        print("Take deep breath")
+        meditation_timer(t)      
     elif user_emotions=="sad":
         print("I am so sorry to hear that",username)
         print(input("Why are you down?"))
