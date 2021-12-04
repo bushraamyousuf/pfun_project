@@ -1,7 +1,7 @@
 import time
 
 # countdown timer 
-
+t = 10
 def meditation_timer(t):
     t = 10
     while t > 0: # while t > 0 for clarity 
